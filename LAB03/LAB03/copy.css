@@ -1,0 +1,10 @@
+/*Fundo*/
+body{
+    background-color: lightgray;
+}
+/*Cabeçalho*/
+header{
+    background-color: bisque;
+    color: darkgreen;
+    border: solid;
+}
