@@ -310,3 +310,4 @@ ctx.fillStyle = '#5C3C2B';
 ctx.fillRect(186.5,252,20,48);
 ctx.closePath();
 }
+//blablalba
