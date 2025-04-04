@@ -148,3 +148,10 @@ ctx.fillStyle = 'yellow';
 ctx.arc(300, 250, 20, 0, Math.PI * 2); // Círculo completo
 ctx.fill();
 ctx.closePath();
+
+// Quadrado vermelho do meio
+ctx.beginPath();
+ctx.lineWidth = 2;
+ctx.fillStyle = 'red'
+ctx.fillRect(0,158,35,80);
+ctx.closePath();
