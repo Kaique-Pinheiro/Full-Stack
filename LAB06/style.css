@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+
+  .quadrado {
+    width: 320px;
+    height: 320px;
+    background-color: rgb(65, 75, 111); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid rgb(145, 77, 0);
+  }
