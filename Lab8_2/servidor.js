@@ -34,8 +34,7 @@ var nome = requisicao.query.nome;
 var sobrenome = requisicao.query.sobrenome;
 var nascimento = requisicao.query.nascimento;
 var civil = requisicao.query.civil;
-var email = requisicao.query.email;
 
-resposta.render('respostas', {nome, sobrenome, nascimento, civil, email})
+resposta.render('resposta_cadastro', {nome, sobrenome, nascimento, civil})
 })
 
